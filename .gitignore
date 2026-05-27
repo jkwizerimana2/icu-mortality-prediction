@@ -1,0 +1,21 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Keep raw/restricted data out of the public repository.
+training_v2.csv
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.sas7bdat
+*.dat
+
+# Local model artifacts.
+*.pkl
+*.joblib
+
